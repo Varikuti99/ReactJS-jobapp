@@ -1,0 +1,72 @@
+.bg-container {
+    background-image: url('https://as1.ftcdn.net/v2/jpg/01/22/71/96/1000_F_122719641_V0yw2cAOrfxsON3HeWi2Sf4iVxhv27QO.jpg');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-card {
+    width: 20vw;
+    height: 45vh;
+    background-color: white;
+    border-radius: 8px;
+    padding: 25px;
+  }
+  
+  .main-heading {
+    color: blue;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .user-heading{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 8px;
+  }
+
+  .username-box{
+    margin-bottom: 8px;
+  }
+  
+  .pass-heading {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .btn {
+    font-family: 'Roboto';
+    background-color: blue;
+    border-radius: 8px;
+    border-width: 0;
+    width: 80px;
+    height: 30px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-left: 65px;
+  }
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pass-sub-heading{
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: grey;
+  text-decoration: underline;
+}
+
+.btn{
+  margin-left: auto;
+  margin-right: auto;
+}
